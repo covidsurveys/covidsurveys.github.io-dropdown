@@ -1,0 +1,24 @@
+name: "my-website"
+navbar:
+  title: "Covid Surveys" 
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Surveys"
+      menu:
+        - text: "Sierra Leone 1"
+          href: sl1.html
+        - text: "Sierra Leone 2"
+          href: sl2.html
+    - text: "About"
+      href: about.html
+ 
+
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+      
+    

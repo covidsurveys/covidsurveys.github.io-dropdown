@@ -1,7 +1,5 @@
 ---
 title: "Covid Surveys: Data Display and Aggregation"
-output:
-  rmdformats::html_clean
 ---
 
 ```{r, include=FALSE}
